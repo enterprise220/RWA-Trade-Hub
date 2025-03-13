@@ -1,3 +1,81 @@
+Core dependencies:
+
+Chakra UI for the interface
+Ethers.js for blockchain interactions
+React Query for data management
+Recharts for charts
+React Router for navigation
+Key components:
+
+Trading view with price chart
+Order book
+Trade history
+Navigation sidebar
+Responsive layout
+
+Wallet Connection:
+
+Added MetaMask integration with ethers.js
+Created a wallet store using Zustand
+Added wallet status display in the navbar
+Trading Interface:
+
+Added buy/sell order form
+Implemented basic order validation
+Added toast notifications for order status
+Blockchain Integration:
+
+Set up ethers.js for Ethereum interaction
+Added Solana Web3.js for Solana integration
+Prepared the groundwork for smart contract integration
+
+Advanced Trading Features:
+
+Real-time charting with TradingView
+Order book with buy/sell orders
+Trade history
+Market and limit orders
+Multiple markets support
+Wallet Integration:
+
+Support for both Ethereum and Solana
+Persistent wallet connection
+Balance tracking
+Network selection
+Market Management:
+
+Order management system
+Trade execution
+Market selection
+RWA token support
+
+Smart Contract Integration:
+
+Complete Exchange contract with order management
+Price feed integration using Chainlink
+Token deposit/withdrawal functionality
+Order matching system
+Real-time Price Feeds:
+
+WebSocket integration with Binance
+Historical data fetching
+Price state management
+Advanced Trading Features:
+
+Market, limit, and stop orders
+Advanced order form
+Contract interaction hooks
+Real-time price updates
+
+
+
+
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
